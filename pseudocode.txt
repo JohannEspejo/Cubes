@@ -1,0 +1,27 @@
+﻿Proyecto: Interseccion de Solidos
+Autor: Johann Espejo.
+Fecha : 25 Julio 2019
+Version: Beta 1.0
+
+	Get values 
+		dimension of solid 1: x, y, z,
+		coordinates of solid 1 a, b, c,
+
+		dimension of solid 2: x, y, z,
+		coordinates of solid 2: a, b, c,
+
+	Instance Solid Objects
+		method get volume
+		method get upper value and lover value for each coordinate (x,y,z)
+		method get set sequence of upper value and lover value for each coordinate (x,y,z)
+		Print Results
+
+	function 
+		Get the intersection between each coordinate sequence corresponding to coodinates X,Y,Z 
+
+		If there is a intersection between sequences
+			Get dimensions of intersection W,L,H
+			Get coordinates for the intersection X,Y,Z 
+			Instance Intersection Object
+			Print Results
+		Else Print "No Intersection"
